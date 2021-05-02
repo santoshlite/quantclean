@@ -1,3 +1,3 @@
 # Quantclean 🧹
 
-A program that reformat every financial dataset to Quantconnect format (US Equity TradeBar)
+A program that reformats every financial dataset to US Equity TradeBar (Quantconnect format)
