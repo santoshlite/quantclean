@@ -2,7 +2,9 @@
 
 A program that reformats every financial dataset to US Equity TradeBar (Quantconnect format)
 
-## How to use it? 
+## How to use it? 🚀
+
+First, download the quantclean.py file in the folder where you are working
 
 ```
 from quantclean import sweeps
