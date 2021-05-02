@@ -36,6 +36,24 @@ def sweeper(data):
     df.reset_index(drop=True, inplace=True)
     df['Date'] = df['Date'].astype(str)
     df['Date'] = df['Date'].str.replace(r'-|/', '')
+
+    missing = data.isnull().sum().sum()
+    if missing >=1:
+      print("The sweeper detected missing values")
+      print("1: No change")
+      print("2: Delete them")
+      print("2: Delete the row containing missing data(s)")
+      answer = input("How do you want to deal with these missing values? (answer 1, 2 or 3)")
+      if answer ==1:
+        pass
+      if answer ==2:
+        df = df.dropna()
+      if answer==3:
+        df = df.dropna( how='all',
+                    subset=['Date','Open','High','Low', 'Close', 'Volume'])
+      else:
+        print("not valid answer")
+
     return df
 
   except KeyError:
@@ -58,4 +76,22 @@ def sweeper(data):
     df.reset_index(drop=True, inplace=True)
     df['Date'] = df['Date'].astype(str)
     df['Date'] = df['Date'].str.replace(r'-|/', '')
+
+    missing = data.isnull().sum().sum()
+    if missing >=1:
+      print("The sweeper detected missing values")
+      print("1: No change")
+      print("2: Delete them")
+      print("2: Delete the row containing missing data(s)")
+      answer = input("How do you want to deal with these missing values? (answer 1, 2 or 3)")
+      if answer ==1:
+        pass
+      if answer ==2:
+        df = df.dropna()
+      if answer==3:
+        df = df.dropna( how='all',
+                    subset=['Date','Open','High','Low', 'Close', 'Volume'])
+      else:
+        print("not valid answer")
+
     return df
