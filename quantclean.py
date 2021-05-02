@@ -1,7 +1,7 @@
 import pandas as pd
 from pandas_datareader import data as web
 
-def reformat(data):
+def sweeps(data):
 
   data.columns = ['Open' if 'open' in x else 'Open' if 'OPEN' in x else x for x in data.columns]
 
