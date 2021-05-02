@@ -1,3 +1,19 @@
 # Quantclean 🧹
 
-A program that reformats financial dataset to US Equity TradeBar (Quantconnect format)
+A program that reformats every financial dataset to US Equity TradeBar (Quantconnect format)
+
+## How to use it? 
+
+```
+from quantclean import sweeps
+
+df = pd.read_csv('AS-N100.csv')
+df
+```
+<img src="https://i.ibb.co/zVfYx5J/Capture.jpg"/>
+
+```
+_df = sweeps(df)
+_df
+```
+<img src="https://i.ibb.co/YdncjPz/Capture.jpg"/>
