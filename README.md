@@ -8,9 +8,9 @@ A program that **reformats** every financial dataset to **US Equity TradeBar** (
 
 ## Few things you may want to know before getting started 🍉
 
-Even if you don't have a open, close, volume, high, low, date column, quantclean will create a blank column for it. No problem!
+1) Even if you don't have a open, close, volume, high, low, date column, quantclean will create a blank column for it. No problem!
 
-The dataframe generated will look like this if you have a date and time column (or if both are on the same column):
+2) The dataframe generated will look like this if you have a date and time column (or if both are on the same column):
 
 | Date| Open | High | Low | Close | Volume
 | ----------- | ---------- | --------- | ---------- | --------- | ---------
@@ -23,7 +23,7 @@ The dataframe generated will look like this if you have a date and time column (
  - Close - Deci-cents Close Price for TradeBar.
  - Volume - Number of shares traded in this TradeBar.
 
-You can also get somethig like that if use the ```sweeper_dash``` function instead of ```sweeper```
+3) You can also get somethig like that if use the ```sweeper_dash``` function instead of ```sweeper```
 
 | Date| Open | High | Low | Close | Volume
 | ----------- | ---------- | --------- | ---------- | --------- | ---------
@@ -31,7 +31,7 @@ You can also get somethig like that if use the ```sweeper_dash``` function inste
 
 As you can see, the date format is YYYY-MM-DD and no more YYYYMMDD.
 
-If you just have a date column (e.g : something like YYYY-MM-DD), it will look like this:
+4) If you just have a date column (e.g : something like YYYY-MM-DD), it will look like this:
 
 | Date| Open | High | Low | Close | Volume
 | ----------- | ---------- | --------- | ---------- | --------- | ---------
