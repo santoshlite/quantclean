@@ -22,20 +22,25 @@ A program that **reformats** every financial dataset to **US Equity TradeBar** (
  - Low - Deci-cents Low Price for TradeBar.
  - Close - Deci-cents Close Price for TradeBar.
  - Volume - Number of shares traded in this TradeBar.
+ 
 
 3) You can also get somethig like that if use the ```sweeper_dash``` function instead of ```sweeper```
+
 
 | Date| Open | High | Low | Close | Volume
 | ----------- | ---------- | --------- | ---------- | --------- | ---------
 | **2013-10-01** | 6448000  | 6448000 | 6448000 | 6448000 | 90
 
+
 As you can see, the date format is YYYY-MM-DD and no more YYYYMMDD.
+
 
 4) If you just have a date column (e.g : something like YYYY-MM-DD), it will look like this:
 
 | Date| Open | High | Low | Close | Volume
 | ----------- | ---------- | --------- | ---------- | --------- | ---------
 | 20131001 | 6448000  | 6448000 | 6448000 | 6448000 | 90
+
 
 You can also use the ```sweeper_dash``` function here.
 
