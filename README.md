@@ -71,8 +71,8 @@ Now, you may not be happy of this date colum which is presented in the YYYYMMDD 
 In that case do :
 
 ```
-_df = sweeper_dash(df)
-_df
+df_dash = sweeper_dash(df)
+df_dash
 ```
 
 Output: 
