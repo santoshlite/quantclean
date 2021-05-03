@@ -4,13 +4,13 @@
 
 A program that **reformats** every financial dataset to **US Equity TradeBar** (Quantconnect format)
 
-We have have this problem of reformating or data to a standard. Manual data cleaning is clearly boring and take time. Quantclean is here to help you and to make you life easier as a quant.
+We all faced the problem of reformating or data to a standard. Manual data cleaning is clearly boring and take time. Quantclean is here to help you and to make you life easier as a quant.
 
 Works great with datas from Quandl, Algoseek, Alpha Vantage, yfinance, and many other more...
 
 ## Few things you may want to know before getting started 🍉
 
-1) Even if you don't have a open, close, volume, high, low, date column, quantclean will create a blank column for it. No problem!
+1) Even if you don't have an open, close, volume, high, low, date column, quantclean will create a blank column for it. No problem!
 
 2) The dataframe generated will look like this if you have a date and time column (or if both are on the same column):
 
@@ -26,7 +26,7 @@ Works great with datas from Quandl, Algoseek, Alpha Vantage, yfinance, and many 
  - Volume - Number of shares traded in this TradeBar.
  
 
-3) You can also get somethig like that if use the ```sweeper_dash``` function instead of ```sweeper```
+3) You can also get something like that if use the ```sweeper_dash``` function instead of ```sweeper```
 
 
 | Date| Open | High | Low | Close | Volume
