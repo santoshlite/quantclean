@@ -31,7 +31,7 @@ Works great with datas from Quandl, Algoseek, Alpha Vantage, yfinance, and many 
 
 | Date| Open | High | Low | Close | Volume
 | ----------- | ---------- | --------- | ---------- | --------- | ---------
-| **2013-10-01** | 6448000  | 6448000 | 6448000 | 6448000 | 90
+| **2013-10-01 09:00:00** | 6448000  | 6448000 | 6448000 | 6448000 | 90
 
 
 As you can see, the date format is YYYY-MM-DD and no more YYYYMMDD.
