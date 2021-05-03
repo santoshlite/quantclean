@@ -12,7 +12,7 @@ Even if you don't have a open, close, volume, high, low, date column, quantclean
 
 The dataframe generated will look like this if you have a date and time column (or if both are on the same column):
 
-| DateTime| Open | High | Low | Close | Volume
+| Date| Open | High | Low | Close | Volume
 | ----------- | ---------- | --------- | ---------- | --------- | ---------
 | 20131001 09:00 | 6448000  | 6448000 | 6448000 | 6448000 | 90
 
