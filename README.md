@@ -4,6 +4,8 @@
 
 A program that **reformats** every financial dataset to **US Equity TradeBar** (Quantconnect format)
 
+(Works great with datas from Quandl, Algoseek, Alpha Vantage, yfinance, and many other more...)
+
 ## Few things you may want to know before getting started 🍉
 
 Even if you don't have a open, close, volume, high, low, date column, quantclean will create a blank column for it. No problem!
