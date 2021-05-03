@@ -6,8 +6,9 @@ A program that **reformats** every financial dataset to **US Equity TradeBar** (
 
 ## Few things you may want to know before getting started 🍉
 
-- Even if you don't have a open, close, volume, high, low, date column, quantclean will create a blank column for it. No problem!
-- The dataframe generated will look like this if you have a date and time column (or if both are on the same column):
+Even if you don't have a open, close, volume, high, low, date column, quantclean will create a blank column for it. No problem!
+
+The dataframe generated will look like this if you have a date and time column (or if both are on the same column):
 
 | DateTime| Open | High | Low | Close | Volume
 | ----------- | ---------- | --------- | ---------- | --------- | ---------
@@ -20,7 +21,7 @@ A program that **reformats** every financial dataset to **US Equity TradeBar** (
  - Close - Deci-cents Close Price for TradeBar.
  - Volume - Number of shares traded in this TradeBar.
 
-If you just have a date column (e.g : something like YYYY-MM-DD), it'll look like this:
+If you just have a date column (e.g : something like YYYY-MM-DD), it will look like this:
 
 | Date| Open | High | Low | Close | Volume
 | ----------- | ---------- | --------- | ---------- | --------- | ---------
