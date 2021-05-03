@@ -4,7 +4,7 @@
 
 A program that **reformats** every financial dataset to **US Equity TradeBar** (Quantconnect format)
 
-We have have this problem of reformating or data to a standard, manual data cleaning is boring and take time. Quantclean is here to help you and to make you life easier as a quant.
+We have have this problem of reformating or data to a standard. Manual data cleaning is clearly boring and take time. Quantclean is here to help you and to make you life easier as a quant.
 
 Works great with datas from Quandl, Algoseek, Alpha Vantage, yfinance, and many other more...
 
