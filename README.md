@@ -4,7 +4,9 @@
 
 A program that **reformats** every financial dataset to **US Equity TradeBar** (Quantconnect format)
 
-(Works great with datas from Quandl, Algoseek, Alpha Vantage, yfinance, and many other more...)
+We have have this problem of reformating or data to a standard, manual data cleaning is boring and take time. Quantclean is here to help you and to make you life easier as a quant.
+
+Works great with datas from Quandl, Algoseek, Alpha Vantage, yfinance, and many other more...
 
 ## Few things you may want to know before getting started 🍉
 
@@ -78,3 +80,7 @@ df_dash
 Output: 
 
 <img src = "https://i.ibb.co/LNd5Kb9/Capture.jpg"/>
+
+## Contribution
+
+If you have some suggestions or improvements don't hesitate to create an issue or make a pull request. Any help is welcome!
