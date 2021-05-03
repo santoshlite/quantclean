@@ -18,7 +18,7 @@ Works great with datas from Quandl, Algoseek, Alpha Vantage, yfinance, and many 
 | ----------- | ---------- | --------- | ---------- | --------- | ---------
 | 20131001 09:00 | 6448000  | 6448000 | 6448000 | 6448000 | 90
 
- - DateTime - String date "YYYYMMDD HH:MM" in the timezone of the data format.
+ - Date - String date "YYYYMMDD HH:MM" in the timezone of the data format.
  - Open - Deci-cents Open Price for TradeBar.
  - High - Deci-cents High Price for TradeBar.
  - Low - Deci-cents Low Price for TradeBar.
