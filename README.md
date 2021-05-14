@@ -10,6 +10,12 @@ We all faced the problem of reformating or data to a standard. Manual data clean
 
 Works great with datas from Quandl, Algoseek, Alpha Vantage, yfinance, and many other more...
 
+## Installation 
+
+```
+pip install quantclean
+```
+
 ## Few things you may want to know before getting started 🍉
 
 1) Even if you don't have an open, close, volume, high, low, date column, quantclean will create a blank column for it. No problem!
@@ -50,7 +56,7 @@ You can also use the ```sweeper_dash``` function here.
 
 ## How to use it? 🚀
 
-First, download the quantclean.py file in the folder where you are working
+First, [here](https://colab.research.google.com/drive/1L6wRRl1l2UnPY50F3qp2cxTcIqC4dtgK?usp=sharing) is a notebook that give you an example of how to use quantclean.
 
 <u>Note :</u> I took this data from Quandl, your dataset doesn't have to look like this one necessarily, quantclean adapts to your dataset as well as possible
 
