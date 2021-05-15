@@ -2,11 +2,11 @@
 
 <strong><em>"Make it cleaner, make it leaner"</em></strong>
 
-Already used by several people working in the quant and finance industries, Quantclean is the all-in-one tool that will help you to reformat your dataset and clean it.
+Already used by **several people working in the quant and finance industries**, Quantclean is the all-in-one tool that will help you to **reformat your dataset and clean it**.
 
 Quantclean is a program that **reformats** every financial dataset to **US Equity TradeBar** (Quantconnect format)
 
-We all faced the problem of reformating or data to a standard. Manual data cleaning is clearly boring and takes time. Quantclean is here to help you and to make you life easier as a quant.
+We all faced the problem of reformating or data to a standard. Manual data cleaning is clearly boring and takes time. Quantclean is here to help you and to make you life easier.
 
 Works great with datas from Quandl, Algoseek, Alpha Vantage, yfinance, and many other more...
 
