@@ -6,7 +6,7 @@ Already used by several people working in the quant and finance industries, Quan
 
 Quantclean is a program that **reformats** every financial dataset to **US Equity TradeBar** (Quantconnect format)
 
-We all faced the problem of reformating or data to a standard. Manual data cleaning is clearly boring and take time. Quantclean is here to help you and to make you life easier as a quant.
+We all faced the problem of reformating or data to a standard. Manual data cleaning is clearly boring and takes time. Quantclean is here to help you and to make you life easier as a quant.
 
 Works great with datas from Quandl, Algoseek, Alpha Vantage, yfinance, and many other more...
 
